@@ -9,12 +9,19 @@ In an era of increasing data privacy concerns, sending sensitive internal docume
 2.  **Privacy-First:** Sending only relevant text snippets to the LLM, not the entire document set.
 3.  **Transparency:** Citing exact sources and highlighting the specific text segments used to generate answers.
 
+## Application Links
+## Live Demo
+
+Frontend: Vervel - https://private-knowledge-qa-phi.vercel.app 
+Backend: Render - https://private-knowledge-qa-olyn.onrender.com/status
+
+
 ## Architecture
 
 The system is built as a monolithic full-stack application for simplicity and ease of deployment.
 
 ### Frontend
--   **Framework:** Next.js 14 (App Router)
+-   **Framework:** Next.js 
 -   **Styling:** Tailwind CSS.
 -   **Key Components:**
     -   `FileUploader`: Handling multi-file uploads.
@@ -101,12 +108,4 @@ Access the application at [http://localhost:3000](http://localhost:3000).
 You can verify the backend status by visiting:
 `http://localhost:3001/status`
 
-## Limitations & Future Improvements
--   **Lexical Search:** Currently uses TF-IDF, which is excellent for keyword matching but may miss semantic nuance. Future versions could implement local vector embeddings (e.g., pgvector or Chroma).
--   **File Support:** Currently supports `.txt` files. PDF and Docx support is on the roadmap.
--   **Scalability:** SQLite is perfect for single-user/dev environments. For production, migrating to PostgreSQL is recommended.
 
-## Deployment
-This application is ready for deployment on platforms like Render or Vercel.
--   **Frontend:** Vercel (Next.js native support).
--   **Backend:** Render / Railway (Node.js service). Ensure the SQLite file is on a persistent volume, or switch to a managed PostgreSQL database.

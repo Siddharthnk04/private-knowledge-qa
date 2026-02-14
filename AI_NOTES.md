@@ -22,14 +22,6 @@ Utilized the Groq API to access the Llama 3 70B model.
 -   **Accuracy:** Llama 3 70B is a state-of-the-art open-weights model comparable to GPT-4 for many reasoning tasks.
 -   **JSON Mode:** Excellent adherence to complex output schemas (like our JSON requirement for highlighting).
 
-## AI Workflow
-1.  **Query Analysis:** The user's question is treated as a "bag of words."
-2.  **Scoring:** The system computes how "important" each word in the query is relative to each document chunk.
-3.  **Context Construction:** The top 3 scoring chunks are concatenated into a context block.
-4.  **Prompt Engineering:**
-    -   We use a strict system prompt to enforce "groundedness"—the AI is forbidden from using outside knowledge.
-    -   We enforce a JSON output schema `{ answer, quotes }` to enable the UI highlighting feature.
-
 ## Where AI Tools Were Used
 -   **Project Scaffolding:** Initial setup of the Next.js and Express structure.
 -   **Algorithm Implementation:** Implementing the specific TF-IDF logic in Node.js.
