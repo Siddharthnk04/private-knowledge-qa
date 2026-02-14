@@ -1,0 +1,7 @@
+--- Retrieval Verification Script ---
+Question: "How many paid sick leaves annually?"
+Calling /ask endpoint (port 3001)...
+Status: 200
+Sources returned: 1
+[1] Company Policy.txt
+✅ PASS: "Product Manual" correctly filtered out.

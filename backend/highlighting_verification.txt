@@ -1,0 +1,5 @@
+--- Highlighting Verification Script ---
+Question: "How many paid sick leaves annually?"
+Highlights found: ["medical documentation if taken for more","documentation if taken for more than","if taken for more than two","taken for more than two consecutive","for more than two consecutive days","medical documentation if taken for","documentation if taken for more","if taken for more than","taken for more than two","for more than two consecutive","more than two consecutive days","10 days per year","medical documentation if taken","documentation if taken for","if taken for more","taken for more than","for more than two","more than two consecutive","than two consecutive days","10 days per","days per year","medical documentation if","documentation if taken","if taken for","taken for more","for more than","more than two","than two consecutive","two consecutive days"]
+✅ PASS: No simple question keywords found in highlights.
+✅ Smart highlighting found phrases.

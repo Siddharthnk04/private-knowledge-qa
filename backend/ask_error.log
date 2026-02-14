@@ -1,0 +1,29 @@
+[2026-02-14T08:53:15.661Z] Error: Request failed with status code 400
+Stack: AxiosError: Request failed with status code 400
+    at settle (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\adapters\http.js:798:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\core\Axios.js:46:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2026-02-14T08:54:32.455Z] Error: Request failed with status code 400
+Details: {
+  "error": {
+    "message": "The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.",
+    "type": "invalid_request_error",
+    "code": "model_decommissioned"
+  }
+}
+Stack: AxiosError: Request failed with status code 400
+    at settle (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\adapters\http.js:798:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Siddharth Naik\OneDrive\Desktop\Private Knowledge\private-knowledge-qa\backend\node_modules\axios\lib\core\Axios.js:46:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
